@@ -1,3 +1,4 @@
+# import library
 import os
 import time
 import streamlit as st
@@ -45,7 +46,6 @@ def cover_gen(prompt):
     max_tokens=350)
 
   return (response.choices[0].message.content)
-
 
 # image generator function
 def image_gen(prompt):
